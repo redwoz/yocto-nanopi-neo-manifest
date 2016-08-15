@@ -14,7 +14,7 @@ repo init -u git://github.com/redwoz/yocto-nanopi-neo-manifest.git
 
 repo sync
 
-export TEMPLATECONF=../meta-h3-extras/conf
+export TEMPLATECONF=../meta-nanopi-neo/conf
 
 source ./poky/oe-init-build-env test
 
