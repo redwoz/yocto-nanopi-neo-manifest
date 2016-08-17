@@ -9,6 +9,6 @@
   <project name="meta-nanopi-neo" path="meta-nanopi-neo" remote="redwoz" revision="master"/>
   <project name="meta-sunxi" path="poky/meta-sunxi" remote="sunxi" revision="refs/heads/jethro"/>
   <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="8ab04afbffb4bc5184cfe0655049de6f44269990" upstream="refs/heads/jethro"/>
-  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" upstream="refs/heads/master"/>
-  <project name="poky" remote="yocto" upstream="refs/heads/jethro"/>
+  <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="ebd3b9b1a442e23bf79afd2240b5f6ea883a60a8" upstream="refs/heads/master"/>
+  <project name="poky" remote="yocto" revision="40376446904ae3529be41737fed9a0b650ed167d" upstream="refs/heads/jethro"/>
 </manifest>
