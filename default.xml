@@ -7,7 +7,8 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
 
   <project name="meta-nanopi-neo" path="meta-nanopi-neo" remote="redwoz" revision="master"/>
-  <project name="meta-sunxi" path="poky/meta-sunxi" remote="sunxi" revision="a158405aa2c11f3c876ccb42b142bdb6898ec0af" upstream="refs/heads/krogoth"/>
+  <!--<project name="meta-sunxi" path="poky/meta-sunxi" remote="sunxi" revision="a158405aa2c11f3c876ccb42b142bdb6898ec0af" upstream="refs/heads/krogoth"/>-->
+  <project name="meta-sunxi" path="poky/meta-sunxi" remote="sunxi" revision="refs/heads/jethro"/>
   <project name="meta-openembedded" path="poky/meta-openembedded" remote="oe" revision="247b1267bbe95719cd4877d2d3cfbaf2a2f4865a" upstream="refs/heads/krogoth"/>
   <project name="meta-ros" path="poky/meta-ros" remote="bmwcarit" revision="ebd3b9b1a442e23bf79afd2240b5f6ea883a60a8" upstream="refs/heads/master"/>
   <project name="poky" remote="yocto" revision="f5da2a5913319ad6ac2141438ba1aa17576326ab" upstream="refs/heads/krogoth"/>
